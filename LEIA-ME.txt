@@ -19,8 +19,14 @@ Recursos
 - Reservas feitas neste navegador aparecem na agenda e no cadastro de clientes do Admin.
 - Agenda diária, busca, filtros, edição de agendamento e prevenção de conflito de horário.
 - Cadastro e edição de serviços, preços, duração, nome da barbearia e profissionais.
+- Cadastro demonstrativo da empresa, com identificação, CNAEs, regime, porte, atividade, dados fiscais e saldos patrimoniais de abertura.
+- Cadastro inicial preenchido como barbearia MEI fictícia, com valores de exemplo em todos os campos. O CNPJ demonstrativo é inválido e não identifica empresa real.
+- Receita simulada em torno de R$ 5.500 por mês e R$ 66.000 em 12 meses, abaixo do teto configurado de R$ 81.000; a folha considera um único empregado.
+- Contabilidade local com 12 meses de lançamentos de exemplo; receitas, deduções, custos, pessoal, despesas, tributos, investimentos, financiamentos e aportes.
+- Demonstrativos resumidos DRE, DVA, fluxo de caixa, balanço patrimonial, rentabilidade/liquidez e resumo mensal; mais Livro Razão e histórico.
+- Limites de faturamento e comparação ilustrativa de regimes tributários, com catálogo geral de obrigações.
 - Exportação e importação de cópia de segurança em JSON.
 - Interface em modo escuro, adaptada para celular e computador.
 
 Limites e privacidade
-Os dados ficam no armazenamento local deste navegador. Limpar os dados do navegador pode apagá-los; exporte cópias regularmente. A senha do Admin separa as telas, mas não substitui autenticação de servidor. O acesso do cliente identifica reservas pelo telefone, sem confirmação por SMS. Não use o exemplar local para disponibilizar dados reais na internet.
+Os dados ficam no armazenamento local deste navegador; não há banco de dados nem sincronização entre dispositivos. Limpar os dados do navegador pode apagá-los; exporte cópias regularmente. A senha do Admin separa as telas, mas não substitui autenticação de servidor. O acesso do cliente identifica reservas pelo telefone, sem confirmação por SMS. Os dados e cálculos contábeis/tributários são demonstrativos e não equivalem à escrituração ou apuração fiscal oficial. O teto inicial de R$ 81.000 é um parâmetro editável; a meta mínima de R$ 36.000 é apenas gerencial. O DAS de exemplo se baseia na referência de serviços de 2026. Confirme as regras vigentes antes de usar esses valores. Não use o exemplar local para disponibilizar dados reais na internet.
