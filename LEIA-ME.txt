@@ -1,0 +1,26 @@
+BARBEARIA — AGENDA LOCAL EM MODO ESCURO
+
+Como abrir
+1. Abra esta pasta no aplicativo Arquivos.
+2. Abra index.html com o navegador para entrar na área do Admin.
+
+Link direto para clientes
+O link compartilhado deve terminar com ?acesso=cliente. Exemplo:
+index.html?acesso=cliente
+
+Esse endereço abre diretamente a página de boas-vindas da barbearia, com o cadastro do cliente e o formulário para escolher serviço, data, horário e profissional. Nas configurações do Admin, use “Copiar link do cliente” para gerar o endereço a partir do endereço atual do aplicativo.
+
+Se o arquivo for aberto como file://, o link só funciona no mesmo dispositivo e não pode ser usado por clientes externos. Para compartilhar pela internet, publique o aplicativo em um endereço web. Esta versão local não sincroniza reservas feitas em outros dispositivos; isso exige armazenamento online compartilhado.
+
+Recursos
+- Acesso Admin protegido por senha criada no primeiro acesso.
+- Painel e agenda administrativa separados da página do cliente.
+- Cadastro de nome e telefone, reserva de horário e consulta de reservas pelo telefone.
+- Reservas feitas neste navegador aparecem na agenda e no cadastro de clientes do Admin.
+- Agenda diária, busca, filtros, edição de agendamento e prevenção de conflito de horário.
+- Cadastro e edição de serviços, preços, duração, nome da barbearia e profissionais.
+- Exportação e importação de cópia de segurança em JSON.
+- Interface em modo escuro, adaptada para celular e computador.
+
+Limites e privacidade
+Os dados ficam no armazenamento local deste navegador. Limpar os dados do navegador pode apagá-los; exporte cópias regularmente. A senha do Admin separa as telas, mas não substitui autenticação de servidor. O acesso do cliente identifica reservas pelo telefone, sem confirmação por SMS. Não use o exemplar local para disponibilizar dados reais na internet.
